@@ -1,6 +1,128 @@
+:root {
+    --root-font-size: 18px;
+    --root-font-weight: 700;
+    --root-font-color: rgb(243, 188, 6);
+    --root-font-shadow: 1px 1px 1px black;
+    --a-color: aqua;
+    --standard-border-radius: 10px;
+
+    /* --main-thematic-bg-color: rgb(2, 0, 36, 0.7); */
+    --main-thematic-bg-color: rgba(17, 12, 2, 0.8);
+    --main-thematic-bg-color-transparent: rgb(2, 0, 36, 0);
+    --contact-card-bg-color:  rgba(2, 1, 19, 0.85);
+    --title-font-size: 1.8em;
+    --title-font-color: rgb(238, 215, 12);
+    --title-border: 2px solid white;
+    --img-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
 body {
     background-image: url(./images/wei-zeng-WsgNGq1aqIQ-unsplash.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+
+.page-wrap {
+    /* padding: 5px; */
+    display: grid;
+    /* justify-content: center; */
+    animation: content-trans 2s forwards;
+}
+
+
+.title {
+    font-size: var(--title-font-size);
+    color: var(--title-font-color);
+    background-color: var(--main-thematic-bg-color);
+    text-align: center;
+    padding: 4px;
+    width: 95%;
+    margin: 2vh;
+    border-radius: var(--standard-border-radius);
+    justify-self: center;
+    
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    
+    animation: title-grow 3.5s forwards;
+
+    display: grid;
+}
+
+.contact {
+    font-size: 0.6em;
+    text-align: center;
+    /* border: 1px solid white; */
+    /* border-radius: var(--standard-border-radius); */
+    /* background-color: var(--contact-card-bg-color); */
+    padding: 2vh;
+    align-self: center;
+    justify-self: center;
+    width: fit-content;
+    /* text-align: start; */
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
+
+    /* z-index: 2; */
+
+}
+
+
+
+.byline {
+    justify-self: center;
+}
+
+.collage-1 {
+
+    justify-self: center;
+
+}
+
+.collage-text-1 {
+    /* justify-self: center; */
+}
+
+
+
+.credits {
+    text-align: center;
+    background-color: rgb(51, 49, 49);
+    color: antiquewhite;
+    font-size: smaller;
+    /* position: relative; */
+    /* bottom: 0px; */
+    padding: 3px 7px;
+    /* width: 150%; */
+}
+
+
+
+
+
+
+
+
+@keyframes content-trans {
+    from {
+        opacity: 0%;
+    }
+
+    20% {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
 }
