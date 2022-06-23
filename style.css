@@ -72,9 +72,14 @@ body {
     /* text-align: start; */
     /* margin-top: 20px; */
     /* margin-bottom: 20px; */
+    margin: 0;
+    padding: 0;
 
     /* z-index: 2; */
+}
 
+.contact a {
+    color: brown;
 }
 
 
