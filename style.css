@@ -78,7 +78,9 @@ body {
     /* z-index: 2; */
 }
 
-.contact a {
+.contact a,
+.credits a
+{
     color: brown;
 }
 
@@ -86,11 +88,17 @@ body {
 
 .byline {
     justify-self: center;
+    font-size: var(--title-font-size);
+    color: rgb(134, 42, 6);
 }
 
 .collage-1 {
 
+    margin-top: 5vh;
+
     justify-self: center;
+    display: grid;
+    gap: 3vh;
 
 }
 
@@ -98,11 +106,17 @@ body {
     /* justify-self: center; */
 }
 
+.intro-video {
+    width: 50vw;
+    height: auto;
+    justify-self: center; 
+}
+
 
 
 .credits {
     text-align: center;
-    background-color: rgb(51, 49, 49);
+    background-color: rgba(17, 12, 2, 0.8);
     color: antiquewhite;
     font-size: smaller;
     /* position: relative; */
@@ -111,7 +125,11 @@ body {
     /* width: 150%; */
 }
 
-
+.intro-card {
+    width: auto;
+    height: 30vh;
+    justify-self: center; 
+}
 
 
 
