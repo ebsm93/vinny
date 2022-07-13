@@ -103,7 +103,14 @@ body {
 }
 
 .collage-text-1 {
-    /* justify-self: center; */
+    text-align: center;
+    justify-self: center;
+    color: antiquewhite;
+    background-color: var(--main-thematic-bg-color);
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 10px;
+
 }
 
 .intro-video {
@@ -125,10 +132,17 @@ body {
     /* width: 150%; */
 }
 
-.intro-card {
+.standard-image {
     width: auto;
     height: 30vh;
     justify-self: center; 
+    border-radius: var(--standard-border-radius);
+}
+
+.image-border {
+
+    border: solid 2px var(--main-thematic-bg-color);
+
 }
 
 
