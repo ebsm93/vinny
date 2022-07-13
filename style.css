@@ -125,7 +125,7 @@ body {
     justify-items: center;
     justify-self: center;
     display: grid;
-    grid-template-columns: 30vw 30vw;
+    grid-template-columns: 40vw 40vw;
     gap: 5vw;
     /* grid-template-rows: auto; */
 }
