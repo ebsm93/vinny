@@ -104,6 +104,10 @@ body {
 
 .collage-text-1 {
     text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
     justify-self: center;
     color: antiquewhite;
     background-color: var(--main-thematic-bg-color);
@@ -111,6 +115,19 @@ body {
     font-size: 1.2em;
     border-radius: 10px;
 
+}
+
+.sideBySide {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 30vw 30vw;
+    gap: 5vw;
+    /* grid-template-rows: auto; */
 }
 
 .intro-video {
@@ -139,10 +156,15 @@ body {
     border-radius: var(--standard-border-radius);
 }
 
+.medium-large-image {
+    width: auto;
+    height: 37vh;
+    justify-self: center; 
+    border-radius: var(--standard-border-radius);
+}
+
 .image-border {
-
     border: solid 2px var(--main-thematic-bg-color);
-
 }
 
 .clicked-image {
