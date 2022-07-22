@@ -21,13 +21,13 @@ html,
 body {
     height: 100%;
     overflow-x: hidden;
-    /* background-color: black; */
 }
 
 
 body {
-    padding: 0;
-    margin: 0;
+    /* background-color: #46e5eb; */
+    /* padding: 0; */
+    /* margin: 0; */
     background-image: url(./images/wei-zeng-WsgNGq1aqIQ-unsplash.jpg);
     background-size: cover;
     background-position: center;
