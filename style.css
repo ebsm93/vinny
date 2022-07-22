@@ -24,12 +24,10 @@ body {
     /* background-color: black; */
 }
 
-html {
-    /* background-color: black; */
-}
 
-
-html {
+body {
+    padding: 0;
+    margin: 0;
     background-image: url(./images/wei-zeng-WsgNGq1aqIQ-unsplash.jpg);
     background-size: cover;
     background-position: center;
