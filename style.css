@@ -25,11 +25,11 @@ body {
 }
 
 html {
-    background-color: black;
+    /* background-color: black; */
 }
 
 
-body {
+html {
     background-image: url(./images/wei-zeng-WsgNGq1aqIQ-unsplash.jpg);
     background-size: cover;
     background-position: center;
