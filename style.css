@@ -25,7 +25,7 @@ body {
 
 
 body {
-    /* background-color: #46e5eb; */
+    /* background-color: #02002400; */
     /* padding: 0; */
     /* margin: 0; */
     background-image: url(./images/wei-zeng-WsgNGq1aqIQ-unsplash.jpg);
@@ -93,6 +93,18 @@ body {
     justify-self: center;
     font-size: var(--title-font-size);
     color: rgb(134, 42, 6);
+}
+
+.strain {
+    border: solid 3px rgb(153, 113, 12);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 2px;
+}
+
+.strain-title {
+    font-size: 1.2em;
+    color: goldenrod;
 }
 
 .collage-1 {
