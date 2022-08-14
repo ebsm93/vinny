@@ -96,6 +96,8 @@ body {
 }
 
 .strain {
+    justify-content: center;
+    display: grid;
     border: solid 3px rgb(153, 113, 12);
     border-radius: 10px;
     padding: 5px;
@@ -171,7 +173,7 @@ body {
     border-radius: var(--standard-border-radius);
 }
 
-.medium-large-image {
+.wider-image {
     width: auto;
     height: 37vh;
     justify-self: center; 
